@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablists</title>
+    <!--link to css-->
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <article class="form_container">
+      <nav class="tab_box">
+          <button data-index="0" class="tab_btn1">Account</button>
+          <button data-index="1" class="tab_btn2">Password</button>
+      </nav>
+      <div class="account_form">
+          <div class="content">
+             <h1 class="header-1">Account </h1>
+             <p class="content-1">Make changes to your account here. Click save when you're done.</p>
+          </div>
+          <div class="form-group-1">
+              <label for="name" class="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Pedro Duarte" class="forInputName" />
+          </div>
+          <div class="form-group-2">
+              <label for="username" class="userLabel">Username</label>
+              <input type="Username" id="username" name="username" placeholder="@peduarte" class="forInputUser" />
+          </div>
+           <div class="submit-btn-1">
+              <button type="footer-submit"  class="submit_btn">Save Changes</button>
+           </div>
+       </div>
+       <!-- <div class="password_form">
+           <div class="content-b">
+             <h2 class="header-2">Password</h2>
+             <p class="content-2">Change your password here. After saving, you'll be logged out.</p>
+           </div>
+           <div class="form-group-3">
+              <label for="current-password">Current Password</label>
+              <input type="password" id="current-password" name="current-password" placeholder="">
+           </div>
+           <div class="form-group-4">
+              <label for="new-password">New Password</label>
+              <input type="password" id="new-password" name="new-password" placeholder="">
+          </div>
+           <div class="submit-btn-2">
+              <button type="footer-submit"  class="submit-2-btn-2">Save Password</button>
+           </div>
+       </div> -->
+   </article>
+   <script src="./scripts/index.js"></script>
+</body>
+</html>
